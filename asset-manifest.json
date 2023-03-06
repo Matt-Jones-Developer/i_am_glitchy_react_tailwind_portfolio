@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.c21315a5.css",
-    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.37f04f85.js",
+    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.3afc16b0.css",
+    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.bf683873.js",
     "static/js/787.98819bd9.chunk.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js",
     "static/media/cristalvision.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/cristalvision.b2c3b4b010c0e7591cad.png",
     "static/media/password_gen.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/password_gen.353bdfbe5dd074af705d.png",
@@ -16,12 +16,12 @@
     "static/media/slack_wht.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/slack_wht.0c550f437c6365f9098b.png",
     "static/media/ghost_icon.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_icon.c0c4a7554ba5274d9f79.png",
     "index.html": "/i_am_glitchy_react_tailwind_portfolio/index.html",
-    "main.c21315a5.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.c21315a5.css.map",
-    "main.37f04f85.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.37f04f85.js.map",
+    "main.3afc16b0.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.3afc16b0.css.map",
+    "main.bf683873.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.bf683873.js.map",
     "787.98819bd9.chunk.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c21315a5.css",
-    "static/js/main.37f04f85.js"
+    "static/css/main.3afc16b0.css",
+    "static/js/main.bf683873.js"
   ]
 }
