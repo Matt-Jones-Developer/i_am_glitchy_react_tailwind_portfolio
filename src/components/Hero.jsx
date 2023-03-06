@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ghostKraken from "../assets/png/ghost_kraken.png";
 import "./styles/Hero.module.css"
 
@@ -16,12 +17,12 @@ const Hero = () => {
           <p className="py-5 text-lumi-pink font-medium">
             Your new hire for awesome project builds written in React.js, Tailwind, JavaScript, Node.js, HTML5 and CSS3!
           </p>
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="btn bg-purps gap-2 text-white px-6 py-3 my-8 hover:bg-transparent"
           >
             Top Projects
-          </a>
+          </Link>
         </div>
         {/* ghost kraken image */}
         <div className="animate-floating inline-block ml-30 mt-5 pt-0 backdrop:ml-auto">

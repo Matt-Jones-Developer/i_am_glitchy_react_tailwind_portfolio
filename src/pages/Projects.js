@@ -44,22 +44,22 @@ const Projects = () => {
             <div className="relative" key={i}>
               <img src={projectImages[project.id]} alt={project.title} />
               <div className="flex absolute left-0 right-0 top-[16px] bottom-0 w-[90%] h-[90%] mx-auto
-              bg-primary opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
-                <p className="py-5 text-center font-bold px-2 text-white">
+              bg-primary opacity-0 duration-500 justify-center flex-col hover:opacity-100">
+                <p className="py-5 text-center font-bold px-2 text-white opacity-80">
                   {project.desc}
                 </p>
 
                 <div className="mx-auto">
                   <a
                     href={project.live}
-                    className="px-5 py-2 mr-5 font-bold bg-purple-500
+                    className="px-5 py-2 mr-5 text-white bg-lumi-pink font-extrabold
                     hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"
                   >
                     Live
                   </a>
                   <a
                     href={project.code}
-                    className="px-5 py-2 bg-orange-500 hover:bg-slate-700 font-bold"
+                    className="px-5 py-2 text-slate-700 bg-lumi-green hover:bg-slate-700 font-bold"
                   >
                     Code
                   </a>
