@@ -1,4 +1,4 @@
-import './styles/Contact.module.css'
+import styles from './styles/Contact.module.css';
 import linkedIn from "../assets/icons/linkedIn.png"
 import slack from "../assets/icons/slack_wht.png"
 import github from "../assets/icons/github.png"
@@ -8,8 +8,8 @@ import Form from '../components/Form'
 
 const Contact = () => {
   return (
-    <section className="section flex p-4 bs-tone px-5 py-6" id="contact">
-      <div className="text-center md:w-[60%] mx-auto text-white">
+    <section className={`${styles.section} section flex p-4 bs-tone px-5 py-24`}>
+      <div className={`${styles.contactMe} text-left md:w-[50%] mx-auto text-white`}>
         <h2 className="contact-title text-6xl font-bold mb-5 border-b-[5px] w-[250px] border-purps pb-2">
           Contact
         </h2>
@@ -56,7 +56,7 @@ const Contact = () => {
         </div>
       </div>
       {/* form to flex between */}
-      <div className="formModal">
+      <div className={`${styles.formModal}`}>
         <Form />
       </div>
     </section>

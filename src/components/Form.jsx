@@ -1,14 +1,14 @@
-import "./styles/Form.module.css";
+import styles from "./styles/Form.module.css";
 import ghosty from "../assets/icons/ghost_icon.png";
 
 const Form = () => {
   return (
     <>
-      <div class="wrapper rounded d-flex align-items-stretch">
-        <div class="bg-primary p-8 mt-8">
+      <div className={`${styles.wrapper} rounded d-flex align-items-stretch py-0`}>
+        <div className="bg-primary p-8 mt-8">
           <div className="flexTop flex align-items-center justify-between">
-            <div class="text-white">
-              <i class="fa-solid fa-envelope fa-3x"></i>
+            <div className="text-white">
+              <i className="fa-solid fa-envelope fa-3x"></i>
             </div>
             <div className="avatar">
               <img
@@ -19,45 +19,53 @@ const Form = () => {
               />
             </div>
           </div>
-          <div class="pt-5">Please get in touch via this secure form:</div>
-          <div class="pt-sm-5 pt-5 cursive mt-sm-5">
+          <div className="pt-5">Please get in touch via this secure form:</div>
+          <div className="pt-sm-5 pt-5 cursive mt-sm-5">
             <em>I need your email to reach you back!</em>
           </div>
         </div>
-        <div class="contact-form bg-secondary  grid-cols-2 p-8">
+        <div className="contact-form bg-secondary grid-cols-2 p-8 justify-center">
           <form>
-            <div class="form-group pt-3 pr-8">
-              <label for="message">Message</label>
+            <div className="form-group justify-center pt-2 w-full">
+              <label htmlFor="message">Message me:</label>
               <textarea
                 name="message"
-                class="form-control ml-8"
+                className="form-control w-full mt-2"
                 required
+                style={{ fontFamily: "Poppins", color: "black", fontSize: "14px" }}
+                rows="5"
               ></textarea>
             </div>
-            <div class="d-flex align-items-center flex-wrap justify-content-between pt-4">
-              <div class="form-group pt-lg-2 pt-3 pr-8">
-                <label for="name">Your Name</label>
+            <div className="d-flex align-items-center flex-wrap justify-content-between pt-4 w-full">
+              <div className="form-group pt-lg-2 pt-3 w-full">
+                <label htmlFor="name">Your Name</label>
                 <input
                   type="text"
                   name="name"
-                  class="form-control pr-8"
+                  className="form-control pr-8 w-full"
                   required
+                  style={{ fontFamily: "Poppins", color: "black" }}
                 />
               </div>
-              <div class="form-group pt-lg-2 pt-3 pr-8">
-                <label for="name">Your Email</label>
+              <div className="form-group pt-lg-2 pt-3 w-full">
+                <label htmlFor="name">Your Email</label>
                 <input
                   type="email"
                   name="email"
-                  class="form-control pr-8"
+                  className="form-control pr-8 w-full"
                   required
+                  style={{ fontFamily: "Poppins", color: "black" }}
                 />
               </div>
             </div>
-            <div class="d-flex align-items-center flex-wrap justify-content-between pt-lg-5 mt-lg-4 mt-5">
-              <div class="btn btn-default">Cancel</div>
+            <div className="flex flex-col md:flex-row items-center justify-center md:justify-between pt-8-lg-5 mt-lg-4 mt-5">
+              <div className="btn btn-default
+              py-2 px-6 text-lg rounded-lg shadow-md text-white bg-gray-800 hover:bg-gray-700 focus:outline-none 
+              focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 mb-4 md:mb-0 cursor-pointer"
+              >Cancel</div>
               <div
-                class="btn btn-primary"
+                className="btn btn-primary py-2 px-6 text-lg rounded-lg shadow-md text-white bg-lumi-pink hover:bg-blue-500 
+                focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 cursor-pointer"
                 data-bs-toggle="modal"
                 data-bs-target="#myModal"
               >
@@ -68,32 +76,24 @@ const Form = () => {
         </div>
       </div>
       <div
-        class="modal fade"
+        className="modal fade"
         id="myModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="myModalLabel"
         aria-hidden="true"
       >
         {/* <!-- Modal --> */}
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="myModalLabel">
-                Thank You
-                <span class="fas fa-heart"></span>
-              </h5>
+        <div className="modal-dialog ml-16">
+          <div className="modal-content">
+            <div className="modal-header">
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
-              <div class="ps-2">
-                Thank You for contacting me. I will get back to you as soon as
-                possible.
-              </div>
+            <div className="modal-body">
             </div>
           </div>
         </div>

@@ -9,14 +9,14 @@ import styles from "./styles/Footer.module.css";
 const Footer = () => {
   return <footer className="footer py-4 text-center bg-primary text-white">
     {/* <!-- footer icons --> */}
-            <div class="footer-icons">
-                <ul class={`${styles.ulIcons}`}>
+            <div className="footer-icons">
+                <ul className={`${styles.ulIcons}`}>
                     <li>
                         <a href="mailto:glitchyghost81@protonmail.com">
                             <img src={`${mailMe}`} alt="mail-icn" /></a>
                     </li>
                     <li>
-                        <a href="https://github.com/Matt-Jones-Developer" class="git-icn">
+                        <a href="https://github.com/Matt-Jones-Developer" className="git-icn">
                             <img src={`${gitHub}`} alt="github-icn" /></a>
                     </li>
                     <li>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import NavTabs from "./NavTabs";
 // import ghostIcon from "../assets/icons/ghost_avatar.png"
 import codeIcon from "../assets/icons/coder_icn.png";
@@ -11,25 +12,30 @@ const NavBar = () => {
 
   const handleToggle = () => setToggle(!toggle);
 
+  // handle side toggle navs onClick
+  const handleLinkClick = () => {
+    setToggle(false);
+  };
+
   return (
     <>
       <nav className="flex bg-primary items-center p-3 mt-0 fixed top-0 w-full z-10 mx-auto">
         <div className="flex lg:flex-1">
-          <a href="/home" className="flex items-center -m-2.5 p-2.5">
+          <Link to="/" className="flex items-center -m-2.5 p-2.5">
             <img
               className="h-12 pl-4 pr-6"
               src={`${codeIcon}`}
               alt="coder icon"
             />
-            <span className="text-2xl font-bold text-accent">
-              <a
-                className="nameTag"
-                href="https://github.com/Matt-Jones-Developer"
-              >
-                i am glitchy
-              </a>
-            </span>
-          </a>
+          </Link>
+          <span className="text-2xl font-bold text-accent">
+            <a
+              className="nameTag"
+              href="https://github.com/Matt-Jones-Developer"
+            >
+              i am glitchy
+            </a>
+          </span>
         </div>
         <div className="flex ml-auto pr-4 lg:hidden">
           <button
@@ -55,16 +61,24 @@ const NavBar = () => {
       >
         <ul className="flex flex-col pt-8 pb-6">
           <li>
-            <a href="/">Home</a>
+            <Link to="/" onClick={handleLinkClick}>
+              Home
+            </Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link to="/about" onClick={handleLinkClick}>
+              About
+            </Link>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <Link to="/projects" onClick={handleLinkClick}>
+              Projects
+            </Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact" onClick={handleLinkClick}>
+              Contact
+            </Link>
           </li>
           <li>
             <a href={`${myCV}`} target="_blank" rel="noreferrer">
