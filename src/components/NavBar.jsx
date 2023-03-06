@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import NavTabs from "./NavTabs";
 // import ghostIcon from "../assets/icons/ghost_avatar.png"
-import codeIcon from "../assets/icons/coder_icn.png"
-import "./styles/NavBar.module.css"
-import "../App.css"
-import myCV from "../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf"
+import codeIcon from "../assets/icons/coder_icn.png";
+import "./styles/NavBar.module.css";
+import "../App.css";
+import myCV from "../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf";
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
@@ -16,22 +16,26 @@ const NavBar = () => {
       <nav className="flex bg-primary items-center p-3 mt-0 fixed top-0 w-full z-10 mx-auto">
         <div className="flex lg:flex-1">
           <a href="/home" className="flex items-center -m-2.5 p-2.5">
-            <img className="h-12 pl-4 pr-6" 
-            src={`${codeIcon}`} 
-            alt="coder icon" 
+            <img
+              className="h-12 pl-4 pr-6"
+              src={`${codeIcon}`}
+              alt="coder icon"
             />
             <span className="text-2xl font-bold text-accent">
-              <a className="nameTag" href="https://github.com/Matt-Jones-Developer">
-              i am glitchy
+              <a
+                className="nameTag"
+                href="https://github.com/Matt-Jones-Developer"
+              >
+                i am glitchy
               </a>
             </span>
           </a>
         </div>
         <div className="flex ml-auto pr-4 lg:hidden">
-          <button 
-          type="button" 
-          className="-m-2.5 inline-flex items-center rounded-md p-2.5 text-white"
-            onClick={handleToggle} 
+          <button
+            type="button"
+            className="-m-2.5 inline-flex items-center rounded-md p-2.5 text-white"
+            onClick={handleToggle}
           >
             <div className="space-y-2">
               <div className="w-10 h-1.5 bg-white"></div>
@@ -51,6 +55,9 @@ const NavBar = () => {
       >
         <ul className="flex flex-col pt-8 pb-6">
           <li>
+            <a href="/about">Home</a>
+          </li>
+          <li>
             <a href="/about">About</a>
           </li>
           <li>
@@ -60,11 +67,7 @@ const NavBar = () => {
             <a href="/contact">Contact</a>
           </li>
           <li>
-            <a
-              href={`${myCV}`}
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={`${myCV}`} target="_blank" rel="noreferrer">
               CV
             </a>
           </li>
@@ -72,7 +75,6 @@ const NavBar = () => {
       </nav>
     </>
   );
-}
+};
 
 export default NavBar;
-
