@@ -1,0 +1,29 @@
+.footer code {
+  font-size: 10px;
+  color: var(--aqua);
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.footer strong {
+  color: var(--peachier);
+  font-family: monospace;
+  font-size: 18px;
+}
+
+/* footer icons */
+
+.ulIcons {
+  margin: 0 auto;
+  /* why no centering? */
+  margin-left: -2rem;
+}
+
+.ulIcons img {
+  width: 24px;
+}
+
+.ulIcons>li {
+  display: inline-block;
+  padding: 1rem 1rem;
+}

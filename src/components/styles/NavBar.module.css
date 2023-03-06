@@ -1,0 +1,20 @@
+
+.nav-items {
+  font-family: 'Raleway', sans-serif;
+}
+
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: var(--lumi-pink);
+}
+
+.nameTag {
+  color: var(--purps) !important;
+}
+
+.mobile-nav {
+  @apply block md:hidden fixed top-10 bg-gray-700 py-4 w-2/4 h-full duration-500;
+}

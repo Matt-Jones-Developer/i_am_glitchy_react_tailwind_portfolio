@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+}
+
+.heroDiv .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}

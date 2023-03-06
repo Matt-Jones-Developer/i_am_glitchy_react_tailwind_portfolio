@@ -1,0 +1,28 @@
+/* gif image */
+.image-container {
+  /* background-image: url('../assets/logo.gif'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  clip-path: circle(50% at 50% 50%);
+  width: 390px;
+  height: 390px;
+  overflow: hidden;
+  /* border: 1px solid blue; */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .button {
+  background-color: transparent;
+  border: none;
+}
+
+.button:active {
+  background-color: transparent;
+  transform: translateY(3px);
+  opacity: 50%;
+} */
