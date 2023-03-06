@@ -29,7 +29,8 @@ const App = () => {
       <NavBar />
       <Routes>
         {/* style={{ paddingTop: '5rem' }} */}
-        <Route path="/home" element={<Layout><Home /></Layout>} index={true} />
+        {/* <Route path="/home" element={<Layout><Home /></Layout>} index={true} /> */}
+        <Route path="/" element={<Layout><Home /></Layout>} index={true} />
         <Route path="/about" element={<Layout><About /></Layout>} />
         <Route path="/projects" element={<Layout><Projects /></Layout>} />
         <Route path="/Contact" element={<Layout><Contact /></Layout>} />

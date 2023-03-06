@@ -15,7 +15,7 @@ const NavBar = () => {
     <>
       <nav className="flex bg-primary items-center p-3 mt-0 fixed top-0 w-full z-10 mx-auto">
         <div className="flex lg:flex-1">
-          <a href="/home" className="flex items-center -m-2.5 p-2.5">
+          <a href="/" className="flex items-center -m-2.5 p-2.5">
             <img
               className="h-12 pl-4 pr-6"
               src={`${codeIcon}`}
@@ -55,7 +55,7 @@ const NavBar = () => {
       >
         <ul className="flex flex-col pt-8 pb-6">
           <li>
-            <a href="/about">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href="/about">About</a>

@@ -5,7 +5,7 @@ function NavTabs() {
   return (
     <>
       <NavLink
-        to="home"
+        to="/"
         className={({ isActive }) =>
           isActive ? "nav-link:active" : "nav-link"
         }
