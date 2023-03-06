@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// create links to specific github pages
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Squares from './components/SquaresAnim';
@@ -26,16 +27,13 @@ const App = () => {
   return (
     <Router>
       <NavBar />
-      {/* <Header /> */}
       <Routes>
         {/* style={{ paddingTop: '5rem' }} */}
-        <Route path="/home" element={<Layout><Home /></Layout>} index={true} />
+        <Route path="/" element={<Layout><Home /></Layout>} index={true} />
         <Route path="/about" element={<Layout><About /></Layout>} />
         <Route path="/projects" element={<Layout><Projects /></Layout>} />
         <Route path="/Contact" element={<Layout><Contact /></Layout>} />
       </Routes>
-      {/* <Header />
-      <Footer /> */}
     </Router>
   );
 };
