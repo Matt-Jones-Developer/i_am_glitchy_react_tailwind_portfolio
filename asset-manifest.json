@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.047fa9f7.css",
+    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.c1f00a75.css",
     "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.67bf0334.js",
     "static/js/787.98819bd9.chunk.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js",
     "static/media/codeboss.gif": "/i_am_glitchy_react_tailwind_portfolio/static/media/codeboss.7a355092fe366a078519.gif",
@@ -15,12 +15,12 @@
     "static/media/Matt Jones C.V 2023 (Google Docs).pdf": "/i_am_glitchy_react_tailwind_portfolio/static/media/Matt Jones C.V 2023 (Google Docs).459efce818673fb58d4c.pdf",
     "static/media/ghost_icon.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_icon.c0c4a7554ba5274d9f79.png",
     "index.html": "/i_am_glitchy_react_tailwind_portfolio/index.html",
-    "main.047fa9f7.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.047fa9f7.css.map",
+    "main.c1f00a75.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.c1f00a75.css.map",
     "main.67bf0334.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.67bf0334.js.map",
     "787.98819bd9.chunk.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.047fa9f7.css",
+    "static/css/main.c1f00a75.css",
     "static/js/main.67bf0334.js"
   ]
 }
