@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.5d624083.css",
-    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.a18f8b78.js",
+    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.a8f9ac2f.css",
+    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.791e2cd9.js",
     "static/js/787.98819bd9.chunk.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js",
+    "static/media/devicon.svg?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.f715b4139afc5236a6e6.svg",
     "static/media/codeboss.gif": "/i_am_glitchy_react_tailwind_portfolio/static/media/codeboss.7a355092fe366a078519.gif",
     "static/media/cristalvision.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/cristalvision.e7785fb0cfe9dcecb4e0.png",
     "static/media/password_gen.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/password_gen.788f8835088c54656fd4.png",
     "static/media/musicforyou_api.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/musicforyou_api.28a0b0e6122cf30bef7a.png",
     "static/media/about-img-lg-2.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/about-img-lg-2.1799ed5218af250f8523.png",
+    "static/media/devicon.eot?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.afa70020fddd5e5a3260.eot",
+    "static/media/devicon.woff?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.96fdfd136e8a467e1861.woff",
+    "static/media/devicon.ttf?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.b25739c2b9d15a53d60c.ttf",
     "static/media/code_unsplash-scaled.jpg": "/i_am_glitchy_react_tailwind_portfolio/static/media/code_unsplash-scaled.6caebfafc11229ebeb47.jpg",
     "static/media/gameboy_site.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/gameboy_site.c5224c9942283c252e9f.png",
     "static/media/ghost_kraken.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_kraken.a25a1b079f9da7b4a765.png",
@@ -15,12 +19,12 @@
     "static/media/Matt Jones C.V 2023 (Google Docs).pdf": "/i_am_glitchy_react_tailwind_portfolio/static/media/Matt Jones C.V 2023 (Google Docs).459efce818673fb58d4c.pdf",
     "static/media/ghost_icon.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_icon.c0c4a7554ba5274d9f79.png",
     "index.html": "/i_am_glitchy_react_tailwind_portfolio/index.html",
-    "main.5d624083.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.5d624083.css.map",
-    "main.a18f8b78.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.a18f8b78.js.map",
+    "main.a8f9ac2f.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.a8f9ac2f.css.map",
+    "main.791e2cd9.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.791e2cd9.js.map",
     "787.98819bd9.chunk.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d624083.css",
-    "static/js/main.a18f8b78.js"
+    "static/css/main.a8f9ac2f.css",
+    "static/js/main.791e2cd9.js"
   ]
 }
