@@ -1,6 +1,6 @@
 import styles from './styles/Contact.module.css';
 import linkedIn from "../assets/icons/linkedIn.png"
-import slack from "../assets/icons/slack_wht.png"
+import slack from "../assets/icons/slack.png"
 import github from "../assets/icons/github.png"
 import myCV from '../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf'
 import Form from '../components/Form'
