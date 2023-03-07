@@ -4,7 +4,7 @@ import ghosty from "../assets/icons/ghost_icon.png";
 const Form = () => {
   return (
     <>
-      <div className={`${styles.wrapper} rounded d-flex align-items-stretch py-0`}>
+      <div className={`${styles.wrapper} rounded d-flex align-items-stretch py-16`}>
         <div className="bg-primary p-8 mt-8">
           <div className="flexTop flex align-items-center justify-between">
             <div className="text-white">
