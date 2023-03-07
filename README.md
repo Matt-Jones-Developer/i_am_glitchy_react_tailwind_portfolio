@@ -218,7 +218,7 @@ You can also reach me via the following: 👻💬
 
 Project Repo Link: [https://github.com/Matt-Jones-Developer/i_am_glitchy_react_tailwind_portfolio](https://github.com/Matt-Jones-Developer/i_am_glitchy_react_tailwind_portfolio)
 
-Deployed Project Link: [https://github.com/Matt-Jones-Developer/i_am_glitchy_react_tailwind_portfolio](N/A)
+Deployed Project Link: [https://matt-jones-developer.github.io/i_am_glitchy_react_tailwind_portfolio/]
 
 # 
 ## Acknowledgments
