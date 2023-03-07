@@ -68,7 +68,7 @@ class Form extends Component {
     return (
       <>
         <div
-          className={`${styles.wrapper} rounded d-flex align-items-stretch py-16`}
+          className={`${styles.wrapper} rounded d-flex align-items-stretch -mt-16`}
         >
           <div className="bg-primary p-8 mt-8">
             <div className="flexTop flex align-items-center justify-between">
@@ -84,7 +84,7 @@ class Form extends Component {
               </div>
             </div>
             <div className="pt-5">
-              Please get in touch via this secure form:
+              Please get in touch via this secure form
             </div>
             <div className="pt-sm-5 pt-5 cursive mt-sm-5">
               <em>I need your email to reach you!</em>
@@ -93,7 +93,7 @@ class Form extends Component {
           <div className="contact-form bg-secondary grid-cols-2 p-8 justify-center">
             <form className="form">
               <div className="form-group justify-center pt-2 w-full">
-                <label htmlFor="message">Message me:</label>
+                <label htmlFor="message">Message</label>
                 <textarea
                   name="message"
                   className="form-control w-full mt-2"
