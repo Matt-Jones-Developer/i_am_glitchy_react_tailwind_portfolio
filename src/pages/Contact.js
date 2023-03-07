@@ -25,13 +25,14 @@ const Contact = () => {
           <span className="font-bold">Email:</span><a href="mailto:glitchyghost@gmail.com"> <em>Matt Jones</em></a>
         </p>
         {/* icon drop */}
-        <div className='iconDrop flex justify-center'>
+        <div className='iconDrop flex justify-center pt-8'>
           <a href='https://github.com/Matt-Jones-Developer'>
             <img className='github p-2'
               src={`${github}`}
               width="90px"
               height="90px"
               alt='github icon'
+              title='View my Github Profile & repos'
             >
             </img>
           </a>
@@ -41,6 +42,7 @@ const Contact = () => {
               width="90px"
               height="64px"
               alt='slack icon'
+              title='Chat me on Slack'
             >
             </img>
           </a>
@@ -50,6 +52,7 @@ const Contact = () => {
               width="90px"
               height="64px"
               alt='linkedIn icon'
+              title='View my LinkedIn Profile'
             >
             </img>
           </a>

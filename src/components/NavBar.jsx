@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import NavTabs from "./NavTabs";
-// import ghostIcon from "../assets/icons/ghost_avatar.png"
 import codeIcon from "../assets/icons/coder_icn.png";
 import "./styles/NavBar.module.css";
 import "../App.css";
@@ -68,6 +67,11 @@ const NavBar = () => {
           <li>
             <Link to="/about" onClick={handleLinkClick}>
               About
+            </Link>
+          </li>
+          <li>
+            <Link to="/skills" onClick={handleLinkClick}>
+              Skills
             </Link>
           </li>
           <li>

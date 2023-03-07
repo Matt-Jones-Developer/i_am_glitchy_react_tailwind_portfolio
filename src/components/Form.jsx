@@ -1,7 +1,7 @@
 import styles from "./styles/Form.module.css";
 import ghosty from "../assets/icons/ghost_icon.png";
 import React, { Component } from "react";
-import { Modal, Button, Card } from "react-bootstrap";
+import { Modal, Button } from "react-bootstrap";
 
 // import { state } from "react";
 
@@ -37,7 +37,6 @@ class Form extends Component {
         showModal: true,
         modalMessage: `Hold up! You need to enter your name please.`,
       });
-      Modal.Dialog("test");
       return;
     } else if (
       this.state.email === "undefined" ||
@@ -73,24 +72,6 @@ class Form extends Component {
     this.setState({ showModal: false });
   };
 
-  // // Open the modal - this is only for standard Bootstrap!
-  // // I want to use just the Modal component from react-bootstrap
-
-  // const myModal = document.getElementById("myModal");
-  // const modal = new window.bootstrap.Modal(myModal);
-  // modal.show();
-
-  // // Update the modal content
-  // const modalBody = document.querySelector(".modal-body");
-  // modalBody.innerHTML = `Thanks ${this.state.fullName}!
-  // I'll be in touch as soon as possible.`;
-
-  // Clear `this.state.fullName`, clearing the inputs
-  //   this.setState({
-  //     fullName: "",
-  //   });
-  // };
-
   render() {
     return (
       <>
@@ -102,12 +83,11 @@ class Form extends Component {
               <div className="text-white">
                 <i className="fa-solid fa-envelope fa-3x"></i>
               </div>
-              <div className="avatar">
+              <div className={`${styles.avatar} -mr-2`}>
                 <img
                   className="lilGhosty"
                   src={`${ghosty}`}
                   alt="lil ghosty avatar"
-                  width="70px"
                 />
               </div>
             </div>
@@ -186,21 +166,25 @@ class Form extends Component {
           aria-hidden="true"
         >
           {/* <!-- Modal --> */}
-          <Card>
-            <Card.Body>
-            <Modal modal-dialog-centered show={this.state.showModal} onHide={this.handleClose}>
-              <Modal.Header closeButton>
-                <Modal.Title>Oops!</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>{this.state.modalMessage}</Modal.Body>
-              <Modal.Footer>
-                <Button variant="secondary" onClick={this.handleCloseModal}>
-                  Close
-                </Button>
-              </Modal.Footer>
-            </Modal>
-            </Card.Body>
-          </Card>
+          <Modal
+            modal-dialog-centered
+            show={this.state.showModal}
+            onHide={this.handleClose}
+          >
+            <div className={`${styles.modalCard}`}>
+              <div className={`${styles.modalContent}`}>
+                <Modal.Header className={`${styles.modalHeader}`} closeButton>
+                  <Modal.Title>Info</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>{this.state.modalMessage}</Modal.Body>
+                <Modal.Footer className={`${styles.modalFooter}`}>
+                  <Button variant="secondary" onClick={this.handleCloseModal}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </div>
+            </div>
+          </Modal>
         </div>
       </>
     );

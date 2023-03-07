@@ -16,7 +16,7 @@ const GridSquare = () => {
 
 const Squares = () => {
   return (
-    <section className="mt-0 pt-0 pb-0 bg-secondary">
+    <section className="mt-0 pt-2 pb-0 bg-secondary">
       <div className={styles.bgGridContainer}>
         {Array.from({ length: 192 }).map((_, index) => (
           <GridSquare key={index} />

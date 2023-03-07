@@ -2,7 +2,7 @@ import AboutImg from "../assets/png/about-img-lg-2.png";
 import styles from "./styles/About.module.css"
 const About = () => {
   return (
-    <section className="bg-primary text-white px-5 py-4" id="about">
+    <section className="bg-primary text-white px-5 py-8 -mt-4 -mb-4" id="about">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between
       motion-safe:animate-fadeIn">
         <div className="about-info">

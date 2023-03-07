@@ -228,6 +228,15 @@ View their work here: [Junior Betta](https://pngtree.com/junior-betta_49180563?t
 
 Thanks also to Aldo for their ghost icon: [Aldo Icons](https://www.flaticon.com/authors/aldo-cervantes)
 
+
+#
+## This Portfolio Was Built In React.js
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+[![love-shield]][love-url]
+
+
 #
 <br>
 <h3>How was this readme created?!
@@ -242,6 +251,8 @@ Thanks also to Aldo for their ghost icon: [Aldo Icons](https://www.flaticon.com/
 [license-url]: https://github.com/Matt-Jones-Developer/i_am_glitchy_react_tailwind_portfolio/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/matt-jones-zx81
+[love-shield]: https://img.shields.io/badge/BUILT%20WITH-%F0%9F%92%9A-yellowgreen
+[love-url]: https://www.linkedin.com/in/matt-jones-zx81
 
 [product-screenshot]: ./src/assets/screenshots/app_screenshot.png
 [product-screenshot-2]: ./src/assets/screenshots/app_screenshot_2.png
@@ -254,10 +265,5 @@ Thanks also to Aldo for their ghost icon: [Aldo Icons](https://www.flaticon.com/
 [mobile-screenshot2]: ./src/assets/screenshots/mobile_screenshot_2.png
 
 
-#
 
-
-## This Portfolio Was Built In React.js
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -23,6 +23,15 @@ function NavTabs() {
         About
       </NavLink>
       <NavLink
+        to="skills"
+        className={({ isActive }) =>
+          isActive ? "nav-link:active" : "nav-link"
+        }
+        // style={{ marginRight: ".3rem" }}
+      >
+        Skills
+      </NavLink>
+      <NavLink
         to="projects"
         className={({ isActive }) =>
           isActive ? "nav-link:active" : "nav-link"
