@@ -1,4 +1,3 @@
-
 import Squares from "./SquaresAnim";
 
 const Header = () => {

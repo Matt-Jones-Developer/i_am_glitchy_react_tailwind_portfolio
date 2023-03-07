@@ -4,9 +4,9 @@ import slack from "../assets/icons/slack.png"
 import github from "../assets/icons/github.png"
 import myCV from '../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf'
 import Form from '../components/Form'
-// import { Form } from 'react-router-dom'
 
 const Contact = () => {
+
   return (
     <section className={`${styles.section} section flex p-4 bs-tone px-5 py-24`}>
       <div className={`${styles.contactMe} text-left md:w-[50%] mx-auto text-white`}>
@@ -22,7 +22,7 @@ const Contact = () => {
         </a>
 
         <p className="py-2 text-white">
-          <span className="font-bold">Email:</span><a href="mailto:glitchyghost@gmail.com"> Matt Jones</a>
+          <span className="font-bold">Email:</span><a href="mailto:glitchyghost@gmail.com"> <em>Matt Jones</em></a>
         </p>
         {/* icon drop */}
         <div className='iconDrop flex justify-center'>
