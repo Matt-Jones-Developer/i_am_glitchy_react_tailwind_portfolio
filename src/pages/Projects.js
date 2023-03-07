@@ -9,12 +9,12 @@ import data from "../data.json";
 
 // map between id and the path
 const projectImages = {
-  1: cristalVision,
-  2: musicForYou,
-  3: gameBoy,
-  4: fineWeather,
-  5: passwordGen,
-  6: codeBoss
+  4: cristalVision,
+  5: musicForYou,
+  6: gameBoy,
+  1: fineWeather,
+  2: passwordGen,
+  3: codeBoss
 }
 
 const Projects = () => {

@@ -6,7 +6,7 @@
 }
 
 .footer strong {
-  color: var(--peachier);
+  color: var(--peachy);
   font-family: monospace;
   font-size: 18px;
 }
@@ -24,4 +24,12 @@
 .ulIcons>li {
   display: inline-block;
   padding: 1rem 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    font-size: 14px;
+    padding: 0 1rem;
+    bottom: 0;
+  }
 }

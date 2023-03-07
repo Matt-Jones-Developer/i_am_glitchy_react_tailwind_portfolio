@@ -1,0 +1,8 @@
+@media screen and (max-width: 770px) {
+  .aboutImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+  }
+}

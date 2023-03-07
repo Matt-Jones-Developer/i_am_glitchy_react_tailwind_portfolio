@@ -59,12 +59,8 @@ const Form = () => {
               </div>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center md:justify-between pt-8-lg-5 mt-lg-4 mt-5">
-              <div className="btn btn-default
-              py-2 px-6 text-lg rounded-lg shadow-md text-white bg-gray-800 hover:bg-gray-700 focus:outline-none 
-              focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 mb-4 md:mb-0 cursor-pointer"
-              >Cancel</div>
               <div
-                className="btn btn-primary py-2 px-6 text-lg rounded-lg shadow-md text-white bg-lumi-pink hover:bg-blue-500 
+                className="btn btn-primary py-2 px-6 text-lg rounded-lg shadow-md text-white bg-lumi-pink hover:bg-purps 
                 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 cursor-pointer"
                 data-bs-toggle="modal"
                 data-bs-target="#myModal"

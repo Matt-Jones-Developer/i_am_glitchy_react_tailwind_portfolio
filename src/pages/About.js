@@ -1,5 +1,5 @@
 import AboutImg from "../assets/png/about-img-lg-2.png";
-
+import styles from "./styles/About.module.css"
 const About = () => {
   return (
     <section className="bg-primary text-white px-5 py-4" id="about">
@@ -26,7 +26,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="about-img">
+        <div className={`${styles.aboutImg}`}>
           <img
             src={AboutImg}
             width="440px"
