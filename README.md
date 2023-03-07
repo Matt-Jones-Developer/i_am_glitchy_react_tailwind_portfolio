@@ -86,7 +86,11 @@ Very easy, memorable syntax, fantastic documentation and examples, coupled with 
 
 The project taught me a lot and I have spent around 5 days simply learning React and Tailwind to accomplish this.
 
+Here is the component flow design I made to help me piece the app together correctly:
 
+<div align="center">
+  <img src="./src/assets/screenshots/component_flow.png" />
+</div>
 
 #
 ### Unique Selling Points
