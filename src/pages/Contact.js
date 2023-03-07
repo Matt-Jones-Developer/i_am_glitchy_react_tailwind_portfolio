@@ -35,7 +35,7 @@ const Contact = () => {
             >
             </img>
           </a>
-          <a href='https://github.com/Matt-Jones-Developer'>
+          <a href='https://ukvirtfept112-wi02517.slack.com/archives/C04DMB7BK0B'>
             <img className='slack p-2'
               src={`${slack}`}
               width="90px"
@@ -44,7 +44,7 @@ const Contact = () => {
             >
             </img>
           </a>
-          <a href='https://github.com/Matt-Jones-Developer'>
+          <a href='https://www.linkedin.com/in/matt-jones-zx81/'>
             <img className='linkedIn p-2'
               src={`${linkedIn}`}
               width="90px"
