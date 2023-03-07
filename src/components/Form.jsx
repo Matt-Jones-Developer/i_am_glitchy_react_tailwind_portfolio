@@ -1,7 +1,7 @@
 import styles from "./styles/Form.module.css";
 import ghosty from "../assets/icons/ghost_icon.png";
 import React, { Component } from "react";
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 
 // import { state } from "react";
 
@@ -48,18 +48,10 @@ class Form extends Component {
       this.setState({
         email: "",
         showModal: true,
-        modalMessage: `Hold up! ${this.state.fullName}! You need to supply your finest email please.`,
+        modalMessage: `Hi ${this.state.fullName}! Please provide your finest, legitimate email address.`,
       });
       return;
     }
-
-    // Alert the user their full name, clear `this.state.fullName`, clearing the inputs
-    // alert(
-    //   `Thanks ${this.state.fullName}! I'll be in touch as soon as possible.`
-    // );
-    // this.setState({
-    //   fullName: "",
-    // });
 
     this.setState({
       fullName: "",
@@ -95,7 +87,7 @@ class Form extends Component {
               Please get in touch via this secure form:
             </div>
             <div className="pt-sm-5 pt-5 cursive mt-sm-5">
-              <em>I need your email to reach you back!</em>
+              <em>I need your email to reach you!</em>
             </div>
           </div>
           <div className="contact-form bg-secondary grid-cols-2 p-8 justify-center">
@@ -145,8 +137,8 @@ class Form extends Component {
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center md:justify-between pt-8-lg-5 mt-lg-4 mt-5">
                 <div
-                  className="btn btn-primary py-2 px-6 text-lg rounded-lg shadow-md text-white bg-lumi-pink hover:bg-purps 
-                focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 cursor-pointer"
+                  className="closeBtn btn btn-primary py-2 px-6 text-lg rounded-lg shadow-md text-white bg-lumi-pink hover:bg-purps 
+                  focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 cursor-pointer"
                   data-bs-toggle="modal"
                   data-bs-target="#myModal"
                   type="button"
@@ -167,20 +159,32 @@ class Form extends Component {
         >
           {/* <!-- Modal --> */}
           <Modal
-            modal-dialog-centered
+            // modal-dialog-centered
             show={this.state.showModal}
             onHide={this.handleClose}
           >
             <div className={`${styles.modalCard}`}>
               <div className={`${styles.modalContent}`}>
                 <Modal.Header className={`${styles.modalHeader}`} closeButton>
-                  <Modal.Title>Info</Modal.Title>
+                  <Modal.Title>{this.state.modalMessage}</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>{this.state.modalMessage}</Modal.Body>
+                {/* <Modal.Body>{this.state.modalMessage}</Modal.Body> */}
                 <Modal.Footer className={`${styles.modalFooter}`}>
-                  <Button variant="secondary" onClick={this.handleCloseModal}>
+                  {/* <Button  >
                     Close
-                  </Button>
+                  </Button> */}
+                  <div
+                  variant="secondary"
+                  className={`${styles.closeBtn} btn btn-primary py-2 px-6 text-lg rounded-lg 
+                  shadow-md text-white bg-lumi-pink hover:bg-purps focus:outline-none focus:ring-2
+                focus:ring-blue-400 focus:ring-opacity-75 cursor-pointer mx-auto`}
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal"
+                  type="button"
+                  onClick={this.handleCloseModal}
+                >
+                  Close
+                </div>
                 </Modal.Footer>
               </div>
             </div>
