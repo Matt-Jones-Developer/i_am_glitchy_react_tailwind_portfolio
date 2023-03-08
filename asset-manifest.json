@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.484f22ea.css",
-    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.e8bf1298.js",
+    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.aa1cb20e.js",
     "static/js/787.98819bd9.chunk.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js",
     "static/media/code_boss_intro_loop.gif": "/i_am_glitchy_react_tailwind_portfolio/static/media/code_boss_intro_loop.d945121ed13f3cc8f396.gif",
     "static/media/devicon.svg?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.f715b4139afc5236a6e6.svg",
@@ -20,11 +20,11 @@
     "static/media/ghost_icon.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_icon.c0c4a7554ba5274d9f79.png",
     "index.html": "/i_am_glitchy_react_tailwind_portfolio/index.html",
     "main.484f22ea.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.484f22ea.css.map",
-    "main.e8bf1298.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.e8bf1298.js.map",
+    "main.aa1cb20e.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.aa1cb20e.js.map",
     "787.98819bd9.chunk.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.484f22ea.css",
-    "static/js/main.e8bf1298.js"
+    "static/js/main.aa1cb20e.js"
   ]
 }
