@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import styles from './styles/Contact.module.css';
 import linkedIn from "../assets/icons/linkedIn.png"
 import slack from "../assets/icons/slack.png"
@@ -6,6 +7,15 @@ import myCV from '../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf'
 import Form from '../components/Form'
 
 const Contact = () => {
+
+  // always auto srcoll hook
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }, []);
 
   return (
     <section className={`${styles.section} 

@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import styles from "./styles/Home.module.css"
 
 const Home = () => {
-  // always auto srcoll hook
+  // always auto scroll hook
   useEffect(() => {
     window.scrollTo({
       top: 0,
