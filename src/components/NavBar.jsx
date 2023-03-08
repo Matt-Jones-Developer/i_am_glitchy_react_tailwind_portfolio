@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import NavTabs from "./NavTabs";
 import codeIcon from "../assets/icons/coder_icn.png";
-import "./styles/NavBar.module.css";
+import styles from "./styles/NavBar.module.css";
 import "../App.css";
 import myCV from "../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf";
 
 const NavBar = () => {
+  // set toggle init state
   const [toggle, setToggle] = useState(false);
-
+  // handle toggles function
   const handleToggle = () => setToggle(!toggle);
 
   // handle side toggle navs onClick
@@ -18,13 +19,21 @@ const NavBar = () => {
 
   return (
     <>
+      {/* build the NavBar */}
       <nav className="flex bg-primary items-center p-3 mt-0 fixed top-0 w-full z-10 mx-auto">
         <div className="flex lg:flex-1 items-center">
+          {/* Nav Icon btn and name link */}
           <Link to="/" className="flex items-center -m-2.5 p-2.5">
             <img
               className="h-12 pl-4 pr-6"
               src={`${codeIcon}`}
               alt="coder icon"
+              // force refresh
+              onClick={() => {
+                window.location.reload();
+                window.location.href = "/";
+              }}
+              title="keep tapping me to reset the coloured squares!"
             />
           </Link>
           <span className="text-2xl font-bold text-accent">
@@ -36,12 +45,14 @@ const NavBar = () => {
             </a>
           </span>
         </div>
+        {/* mobile nav toggle nav */}
         <div className="flex ml-auto pr-4 lg:hidden">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center rounded-md p-2.5 text-white"
             onClick={handleToggle}
           >
+            {/* hamburger divs */}
             <div className="space-y-2">
               <div className="w-10 h-1.5 bg-white"></div>
               <div className="w-10 h-1.5 bg-white"></div>
@@ -54,11 +65,11 @@ const NavBar = () => {
         </div>
       </nav>
 
-      {/* for mobile toggle nav */}
+      {/* mobile toggle nav links */}
       <nav
         className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
       >
-        <ul className="flex flex-col pt-8 pb-6">
+        <ul className={`${styles.toggleNavList} flex flex-col pt-8 pb-6`}>
           <li>
             <Link to="/" onClick={handleLinkClick}>
               Home

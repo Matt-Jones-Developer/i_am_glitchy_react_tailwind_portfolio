@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import "./styles/ButtonLanding.module.css";
-
+// LANDING PAGE [TODO WIP]
 const ButtonLanding = ({ history }) => {
   const navigate = useNavigate();
   const handleClick = () => {

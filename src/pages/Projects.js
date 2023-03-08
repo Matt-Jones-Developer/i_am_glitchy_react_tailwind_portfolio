@@ -1,20 +1,21 @@
+import styles from "./styles/Projects.module.css"
 import cristalVision from "../assets/png/cristalvision.png";
 import musicForYou from "../assets/png/musicforyou_api.png";
 import gameBoy from "../assets/png/gameboy_site.png";
 import fineWeather from "../assets/png/fine_days_weather.png";
 import passwordGen from "../assets/png/password_gen.png";
-import codeBoss from "../assets/gif/codeboss.gif";
+import codeBoss from "../assets/gif/code_boss_intro_loop.gif";
 
 import data from "../data.json";
 
 // map between id and the path
 const projectImages = {
-  4: cristalVision,
-  5: musicForYou,
-  6: gameBoy,
   1: fineWeather,
   2: passwordGen,
-  3: codeBoss
+  3: musicForYou,
+  4: cristalVision,
+  5: codeBoss,
+  6: gameBoy
 }
 
 const Projects = () => {
@@ -22,7 +23,7 @@ const Projects = () => {
   const projects = data;
 
   return (
-    <section className="projectsIntro bg-primary text-white px-5 py-10 pb-16">
+    <section className={`${styles.projectSection} bg-primary text-white px-5 pt-10 -pb-24`}>
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className="about mb-5">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[150px] border-purps pb-2">
@@ -31,7 +32,8 @@ const Projects = () => {
 
           <p className="pb-5 text-white">
             Some of my best projects. I built them using a mix of React &
-            Tailwind, vanilla JavaScript, HTML5 and CSS3.  I love building CLI programs using Node.js too!
+            Tailwind, vanilla JavaScript, HTML5 and CSS3.  
+            I love building CLI programs using Node.js too!
           </p>
         </div>
       </div>
@@ -69,7 +71,7 @@ const Projects = () => {
           );
         })}
       </div>
-      {/* video of codeBoss? */}
+      {/* video of codeBoss [TODO] */}
       <div className="demo-gif"></div>
     </section>
   );

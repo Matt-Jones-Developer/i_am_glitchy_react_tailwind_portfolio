@@ -1,3 +1,7 @@
+a:hover > span {
+  textDecoration: underline;
+}
+
 @media screen and (max-width: 770px) {
   .aboutImg {
     display: flex;
@@ -6,3 +10,4 @@
     padding-top: 2rem;
   }
 }
+

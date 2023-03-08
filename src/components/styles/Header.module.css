@@ -1,4 +1,3 @@
-
 /* hero-anim squares */
 .header {
   background-color: var(--bs-dark);
@@ -58,6 +57,7 @@
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
@@ -67,6 +67,7 @@
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }

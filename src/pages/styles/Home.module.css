@@ -8,3 +8,9 @@
   align-items: center;
 
 }
+
+.homeSection {
+  scroll-margin-top: 50px;
+  scroll-behavior: smooth;
+  transition-duration: 1.5s;
+}

@@ -9,7 +9,6 @@ function NavTabs() {
         className={({ isActive }) =>
           isActive ? "nav-link:active" : "nav-link"
         }
-        // style={{ marginRight: ".3rem" }}
       >
         Home
       </NavLink>
@@ -18,7 +17,6 @@ function NavTabs() {
         className={({ isActive }) =>
           isActive ? "nav-link:active" : "nav-link"
         }
-        // style={{ marginRight: ".3rem" }}
       >
         About
       </NavLink>
@@ -27,7 +25,6 @@ function NavTabs() {
         className={({ isActive }) =>
           isActive ? "nav-link:active" : "nav-link"
         }
-        // style={{ marginRight: ".3rem" }}
       >
         Skills
       </NavLink>
@@ -36,7 +33,6 @@ function NavTabs() {
         className={({ isActive }) =>
           isActive ? "nav-link:active" : "nav-link"
         }
-        // style={{ marginRight: ".3rem" }}
       >
         Projects
       </NavLink>
@@ -46,7 +42,6 @@ function NavTabs() {
         className={({ isActive }) =>
           isActive ? "nav-link active" : "nav-link"
         }
-        // style={{ marginRight: ".3rem" }}
       >
         Contact
       </NavLink>

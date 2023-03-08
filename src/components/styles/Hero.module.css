@@ -6,9 +6,9 @@
   margin-top: -2rem;
 }
 
-.btnCTA {
+/* .btnCTA {
   border-radius: 3px;
-}
+} */
 
 .btnCTA:hover {
   background-color: var(--bs-dark);

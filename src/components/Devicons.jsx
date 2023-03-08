@@ -2,12 +2,12 @@ import "devicon/devicon.min.css";
 import styles from "./styles/Devicons.module.css";
 
 const Devicons = () => {
-  // constructors or js
+  // [TODO] generate these via json
 
   return (
     <>
       {/* devicons grid */}
-      <section className="devicons container flex mx-auto p-4 pb-16">
+      <section className="devicons container flex mx-auto p-4 pb-16 animate-floating">
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-6 mx-auto iconGrid">
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
@@ -76,7 +76,7 @@ const Devicons = () => {
         </div>
       </section>
       {/* row 2 */}
-      <section className="devicons container flex mx-auto pt-0 p-4 pb-16">
+      <section className="devicons container flex mx-auto pt-0 p-4 pb-16 animate-floating ">
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-6 mx-auto iconGrid">
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
@@ -144,7 +144,7 @@ const Devicons = () => {
         </div>
       </section>
       {/* row 3 */}
-      <section className="devicons container flex mx-auto pt-0 p-4 pb-16">
+      <section className="devicons container flex mx-auto pt-0 p-4 pb-16 animate-floating">
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-6 mx-auto iconGrid">
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
@@ -212,7 +212,7 @@ const Devicons = () => {
         </div>
       </section>
       {/* row 4 */}
-      <section className="devicons container flex mx-auto pt-0 p-4 pb-16">
+      <section className="devicons container flex mx-auto pt-0 p-4 pb-16 animate-floating">
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-6 mx-auto iconGrid">
         <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">

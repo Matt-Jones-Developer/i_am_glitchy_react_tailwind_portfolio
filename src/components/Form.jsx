@@ -1,9 +1,7 @@
-import styles from "./styles/Form.module.css";
-import ghosty from "../assets/icons/ghost_icon.png";
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
-
-// import { state } from "react";
+import styles from "./styles/Form.module.css";
+import ghosty from "../assets/icons/ghost_icon.png";
 
 class Form extends Component {
   state = {
@@ -13,25 +11,25 @@ class Form extends Component {
   };
 
   handleInputChange = (event) => {
-    // Getting the value and name of the input which triggered the change
+    // get value/name of input which triggered the change
     const value = event.target.value;
     const name = event.target.name;
 
-    // Updating the input's state
+    // updating the input's state
     this.setState({
       [name]: value,
     });
   };
 
   handleFormSubmit = (event) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
+    // Preventing page refresh
     event.preventDefault();
     console.log("submit pressed!");
 
     // conditionals
     if (!this.state.fullName.length) {
       // alert for debug only
-      // alert("Provide your name please!");
+      // alert("Provide your name please");
       this.setState({
         fullName: "",
         showModal: true,
@@ -48,7 +46,8 @@ class Form extends Component {
       this.setState({
         email: "",
         showModal: true,
-        modalMessage: `Hi ${this.state.fullName}! Please provide your finest, legitimate email address.`,
+        modalMessage: `Hi ${this.state.fullName}! 
+        Please provide your finest, legitimate email address.`,
       });
       return;
     }
@@ -56,7 +55,8 @@ class Form extends Component {
     this.setState({
       fullName: "",
       showModal: true,
-      modalMessage: `Thanks ${this.state.fullName}! I'll be in touch as soon as possible.`,
+      modalMessage: `Thanks ${this.state.fullName}! 
+      I'll be in touch as soon as possible.`,
     });
   };
 
@@ -67,6 +67,7 @@ class Form extends Component {
   render() {
     return (
       <>
+        {/* render the form */}
         <div
           className={`${styles.wrapper} rounded d-flex align-items-stretch -mt-16`}
         >
@@ -83,9 +84,7 @@ class Form extends Component {
                 />
               </div>
             </div>
-            <div className="pt-5">
-              Please get in touch via this secure form
-            </div>
+            <div className="pt-5">Please get in touch via this secure form</div>
             <div className="pt-sm-5 pt-5 cursive mt-sm-5">
               <em>I need your email to reach you!</em>
             </div>
@@ -107,7 +106,10 @@ class Form extends Component {
                   placeholder="Type a message here ..."
                 ></textarea>
               </div>
-              <div className="d-flex align-items-center flex-wrap justify-content-between pt-4 w-full">
+              <div
+                className="d-flex align-items-center flex-wrap 
+                justify-content-between pt-4 w-full"
+              >
                 <div className="form-group pt-lg-2 pt-3 w-full">
                   <label htmlFor="name">Your Name</label>
                   <input
@@ -135,10 +137,14 @@ class Form extends Component {
                   />
                 </div>
               </div>
-              <div className="flex flex-col md:flex-row items-center justify-center md:justify-between pt-8-lg-5 mt-lg-4 mt-5">
+              <div
+                className="flex flex-col md:flex-row items-center justify-center 
+                  md:justify-between pt-8-lg-5 mt-lg-4 mt-5"
+              >
                 <div
-                  className="closeBtn btn btn-primary py-2 px-6 text-lg rounded-lg shadow-md text-white bg-lumi-pink hover:bg-purps 
-                  focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 cursor-pointer"
+                  className="closeBtn btn btn-primary py-2 px-6 text-lg rounded-lg 
+                  shadow-md text-white bg-lumi-pink hover:bg-purps focus:outline-none 
+                  focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 cursor-pointer"
                   data-bs-toggle="modal"
                   data-bs-target="#myModal"
                   type="button"
@@ -159,9 +165,11 @@ class Form extends Component {
         >
           {/* <!-- Modal --> */}
           <Modal
-            // modal-dialog-centered
+            // show.hide
             show={this.state.showModal}
             onHide={this.handleClose}
+            // prevent? auto scrolling
+            className={this.state.showModal ? "modalOpen" : ""}
           >
             <div className={`${styles.modalCard}`}>
               <div className={`${styles.modalContent}`}>
@@ -170,21 +178,19 @@ class Form extends Component {
                 </Modal.Header>
                 {/* <Modal.Body>{this.state.modalMessage}</Modal.Body> */}
                 <Modal.Footer className={`${styles.modalFooter}`}>
-                  {/* <Button  >
-                    Close
-                  </Button> */}
+                  {/* modal btn */}
                   <div
-                  variant="secondary"
-                  className={`${styles.closeBtn} btn btn-primary py-2 px-6 text-lg rounded-lg 
+                    variant="secondary"
+                    className={`${styles.closeBtn} btn btn-primary py-2 px-6 text-lg rounded-lg 
                   shadow-md text-white bg-lumi-pink hover:bg-purps focus:outline-none focus:ring-2
                 focus:ring-blue-400 focus:ring-opacity-75 cursor-pointer mx-auto`}
-                  data-bs-toggle="modal"
-                  data-bs-target="#myModal"
-                  type="button"
-                  onClick={this.handleCloseModal}
-                >
-                  Close
-                </div>
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal"
+                    type="button"
+                    onClick={this.handleCloseModal}
+                  >
+                    Close
+                  </div>
                 </Modal.Footer>
               </div>
             </div>

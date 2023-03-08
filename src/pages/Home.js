@@ -1,8 +1,21 @@
+import { useEffect } from 'react';
 import Hero from "../components/Hero";
+import styles from "./styles/Home.module.css"
 
 const Home = () => {
+  // always auto srcoll hook
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }, []);
+
   return (
-    <Hero />
+    <section className={`${styles.homeSection}`}>
+      <Hero />
+    </section>
   );
 };
 

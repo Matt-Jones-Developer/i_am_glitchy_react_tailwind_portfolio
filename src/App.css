@@ -73,11 +73,6 @@ h1 {
   color: var(--color-dark);
 }
 
-/* assist nameTag color switch (mute) */
-/* a {
-  color: var(--color-light);
-} */
-
 a:hover {
   color: var(--lumi);
 }
@@ -102,7 +97,7 @@ p {
 .text-accent {
   color: var(--purps);
 } 
-/* // this no good */
+
 .text-hl {
   color: var(--lumi-pink);
 }

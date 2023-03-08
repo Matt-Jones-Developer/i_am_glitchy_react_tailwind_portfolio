@@ -1,5 +1,4 @@
 import React from 'react';
-// create links to specific github pages
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
@@ -12,8 +11,8 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import './App.css'
 
-
-// add layout component for correct semantic HTML
+// layout component for tidy semantic HTML
+// I have 2 headers per page
 const Layout = ({ children }) => {
   return (
     <>
@@ -30,8 +29,6 @@ const App = () => {
     <Router>
       <NavBar />
       <Routes>
-        {/* style={{ paddingTop: '5rem' }} */}
-        {/* <Route path="/home" element={<Layout><Home /></Layout>} index={true} /> */}
         <Route path="/" element={<Layout><Home /></Layout>} index={true} />
         <Route path="/about" element={<Layout><About /></Layout>} />
         <Route path="/skills" element={<Layout><Skills /></Layout>} />

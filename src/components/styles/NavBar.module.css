@@ -1,4 +1,7 @@
 
+.toggleNavList li {
+  margin-top: 2rem;
+}
 .nav-items {
   font-family: 'Raleway', sans-serif;
 }

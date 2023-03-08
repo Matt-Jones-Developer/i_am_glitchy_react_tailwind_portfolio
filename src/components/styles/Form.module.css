@@ -1,3 +1,7 @@
+body.modalOpen {
+  overflow: hidden;
+}
+
 .modalCard {
   display: flex;
   justify-content: center;

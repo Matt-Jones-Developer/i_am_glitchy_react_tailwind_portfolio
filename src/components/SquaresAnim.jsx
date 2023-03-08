@@ -1,5 +1,6 @@
 import styles from "./styles/SquaresAnim.module.css";
 
+// let's build some pretty coloured squares!
 const GridSquare = () => {
   // assign colours randomly
   if (Math.random() < 0.05) {
@@ -16,7 +17,8 @@ const GridSquare = () => {
 
 const Squares = () => {
   return (
-    <section className="mt-0 pt-2 pb-0 bg-secondary">
+    // generate squares grid
+    <section className="mt-0 pt-6 bg-primary">
       <div className={styles.bgGridContainer}>
         {Array.from({ length: 192 }).map((_, index) => (
           <GridSquare key={index} />

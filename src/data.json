@@ -17,11 +17,11 @@
   },
   {
     "id": 3,
-    "img": "../assets/png/codeboss.png",
-    "title": "codeBoss: The Team Builder Generator",
-    "desc": "A fun team builder CLI app; built in vanilla JavaScript.",
-    "live": "https://matt-jones-developer.github.io/codeboss_engineer_dashboard",
-    "code": "https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard"
+    "img": "../assets/png/musicforyou_api.png",
+    "title": "An API driven Music Searching & Ticket Finding website",
+    "desc": "A collaborative team project, very cool to use. Built with Javascript, HTML, CSS.",
+    "live": "https://matt-jones-developer.github.io/music4you_the_API_driven_music_search_engine/",
+    "code": "https://github.com/Matt-Jones-Developer/music4you_the_API_driven_music_search_engine"
   },
   {
     "id": 4,
@@ -33,11 +33,11 @@
   },
   {
     "id": 5,
-    "img": "../assets/png/musicforyou_api.png",
-    "title": "An API driven Music Searching & Ticket Finding website",
-    "desc": "A collaborative team project, very cool to use. Built with Javascript, HTML, CSS.",
-    "live": "https://matt-jones-developer.github.io/music4you_the_API_driven_music_search_engine/",
-    "code": "https://github.com/Matt-Jones-Developer/music4you_the_API_driven_music_search_engine"
+    "img": "../assets/png/codeboss.png",
+    "title": "codeBoss: The Team Builder Generator",
+    "desc": "A fun team builder CLI app; built in vanilla JavaScript.",
+    "live": "https://matt-jones-developer.github.io/codeboss_engineer_dashboard/",
+    "code": "https://github.com/Matt-Jones-Developer/codeboss_engineer_dashboard"
   },
   {
     "id": 6,
