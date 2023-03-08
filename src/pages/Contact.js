@@ -15,17 +15,16 @@ const Contact = () => {
           Contact
         </h2>
         <p className="text-white contactIntro">
-          I'm currently available to hire within any full-time or part-time Front-end Developer roles.
-          If you want to discuss any potential contracts with me, please feel free to get in touch...
+          I'm currently available for hire within any full-time or part-time Front-end Developer roles.
+          If you want to discuss potential freelance contracts with me, please feel free to get in touch...
         </p>
-        <a href={myCV} download="Matt Jones C.V 2023.pdf">
-          <em className='text--peachy'><b>Download my CV here</b></em>
-        </a>
-
         <p className="py-2 text-white">
-          <span className="font-bold">Email:</span>
+          <span className="font-bold">Email me:</span>
           <a href="mailto:glitchyghost@gmail.com"> <em>Matt Jones</em></a>
         </p>
+        <a href={myCV} download="Matt Jones C.V 2023.pdf">
+          <em className='text--peachy'><b>Download my CV</b></em>
+        </a>
         {/* icon drop */}
         <div className='iconDrop flex justify-center py-8 mb-16'>
           <a href='https://github.com/Matt-Jones-Developer'>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHref } from "react-router-dom";
 import { Link } from "react-router-dom";
 import NavTabs from "./NavTabs";
 import codeIcon from "../assets/icons/coder_icn.png";
@@ -12,10 +13,19 @@ const NavBar = () => {
   // handle toggles function
   const handleToggle = () => setToggle(!toggle);
 
+  // init useHistory
+  const href = useHref();
+
   // handle side toggle navs onClick
   const handleLinkClick = () => {
     setToggle(false);
   };
+
+  // handle external CV link
+  function handleCVClick() {
+    window.open(`${myCV}`, "_blank")
+    window.location.reload();
+  }
 
   return (
     <>
@@ -23,7 +33,7 @@ const NavBar = () => {
       <nav className="flex bg-primary items-center p-3 mt-0 fixed top-0 w-full z-10 mx-auto">
         <div className="flex lg:flex-1 items-center">
           {/* Nav Icon btn and name link */}
-          <Link to="/" className="flex items-center -m-2.5 p-2.5">
+          <Link to={href} className="flex items-center -m-2.5 p-2.5">
             <img
               className="h-12 pl-4 pr-6"
               src={`${codeIcon}`}
@@ -31,7 +41,8 @@ const NavBar = () => {
               // force refresh
               onClick={() => {
                 window.location.reload();
-                window.location.href = "/";
+                // fix the 404 useHref
+                window.location.href = href;
               }}
               title="keep tapping me to reset the coloured squares!"
             />
@@ -96,7 +107,12 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <a href={`${myCV}`} target="_blank" rel="noreferrer">
+            <a
+              href={`${myCV}`}
+              onClick={handleCVClick}
+              target="_blank"
+              rel="noreferrer"
+            >
               CV
             </a>
           </li>

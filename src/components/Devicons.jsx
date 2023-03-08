@@ -12,7 +12,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-javascript-plain`}
+                className={`${styles.devIcon} devicon-javascript-plain`}
                 title="JavaScript"
               ></i>
             </a>
@@ -20,7 +20,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-react-original`}
+                className={`${styles.devIcon} devicon-react-original`}
                 title="React.js"
               ></i>
             </a>
@@ -28,7 +28,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-tailwindcss-plain`}
+                className={`${styles.devIcon} devicon-tailwindcss-plain`}
                 title="Tailwind CSS"
               ></i>
             </a>
@@ -36,7 +36,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-html5-plain`}
+                className={`${styles.devIcon} devicon-html5-plain`}
                 title="HTML-5"
               ></i>
             </a>
@@ -44,7 +44,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-css3-plain`}
+                className={`${styles.devIcon} devicon-css3-plain`}
                 title="CSS-3"
               ></i>
             </a>
@@ -52,7 +52,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-sass-original`}
+                className={`${styles.devIcon} devicon-sass-original`}
                 title="SCSS"
               ></i>
             </a>
@@ -60,7 +60,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-redux-original`}
+                className={`${styles.devIcon} devicon-redux-original`}
                 title="Redux"
               ></i>
             </a>
@@ -68,7 +68,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-typescript-plain`}
+                className={`${styles.devIcon} devicon-typescript-plain`}
                 title="TypeScript"
               ></i>
             </a>
@@ -81,7 +81,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-nodejs-plain`}
+                className={`${styles.devIcon} devicon-nodejs-plain`}
                 title="Node.js"
               ></i>
             </a>
@@ -89,7 +89,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-npm-original-wordmark`}
+                className={`${styles.devIcon} devicon-npm-original-wordmark`}
                 title="npm"
               ></i>
             </a>
@@ -97,14 +97,14 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-python-plain`}
+                className={`${styles.devIcon} devicon-python-plain`}
                 title="Python"
               ></i>
             </a>
           </div>
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
-              <i class={`${styles.devIcon} devicon-git-plain`}
+              <i className={`${styles.devIcon} devicon-git-plain`}
               title="Git"
               ></i>
             </a>
@@ -112,7 +112,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-github-original`}
+                className={`${styles.devIcon} devicon-github-original`}
                 title="Github"
               ></i>
             </a>
@@ -120,7 +120,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-flask-original`}
+                className={`${styles.devIcon} devicon-flask-original`}
                 title="Flask"
               ></i>
             </a>
@@ -128,7 +128,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-pandas-original`}
+                className={`${styles.devIcon} devicon-pandas-original`}
                 title="Pandas"
               ></i>
             </a>
@@ -136,7 +136,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-mongodb-plain`}
+                className={`${styles.devIcon} devicon-mongodb-plain`}
                 title="MongoDB"
               ></i>
             </a>
@@ -149,14 +149,14 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-vscode-plain`}
+                className={`${styles.devIcon} devicon-vscode-plain`}
                 title="VSCode"
               ></i>
             </a>
           </div>
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
-              <i class={`${styles.devIcon} devicon-jest-plain`} 
+              <i className={`${styles.devIcon} devicon-jest-plain`} 
               title="jest"
               ></i>
             </a>
@@ -164,7 +164,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-bootstrap-plain`}
+                className={`${styles.devIcon} devicon-bootstrap-plain`}
                 title="Bootstrap"
               ></i>
             </a>
@@ -172,7 +172,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-jquery-plain`}
+                className={`${styles.devIcon} devicon-jquery-plain`}
                 title="jQuery"
               ></i>
             </a>
@@ -180,7 +180,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-eslint-original`}
+                className={`${styles.devIcon} devicon-eslint-original`}
                 title="ESLint"
               ></i>
             </a>
@@ -188,7 +188,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-codepen-plain`}
+                className={`${styles.devIcon} devicon-codepen-plain`}
                 title="Codepen"
               ></i>
             </a>
@@ -196,7 +196,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-numpy-original`}
+                className={`${styles.devIcon} devicon-numpy-original`}
                 title="Numpy"
               ></i>
             </a>
@@ -204,7 +204,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-devicon-plain`}
+                className={`${styles.devIcon} devicon-devicon-plain`}
                 title="Devicon"
               ></i>
             </a>
@@ -217,22 +217,14 @@ const Devicons = () => {
         <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-photoshop-plain`}
+                className={`${styles.devIcon} devicon-photoshop-plain`}
                 title="Photoshop"
               ></i>
             </a>
           </div>
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
-              <i
-                class={`${styles.devIcon} devicon-apple-original`}
-                title="Apple | Unix"
-              ></i>
-            </a>
-          </div>
-          <div className="iconCell">
-            <a href="https://github.com/Matt-Jones-Developer">
-              <i class={`${styles.devIcon} devicon-figma-plain`}
+              <i className={`${styles.devIcon} devicon-figma-plain`}
               title="Figma"
               ></i>
             </a>
@@ -240,7 +232,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-inkscape-plain`}
+                className={`${styles.devIcon} devicon-inkscape-plain`}
                 title="Inkscape"
               ></i>
             </a>
@@ -248,7 +240,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-gimp-plain`}
+                className={`${styles.devIcon} devicon-gimp-plain`}
                 title="G.I.M.P"
               ></i>
             </a>
@@ -256,15 +248,7 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-raspberrypi-line`}
-                title="Micro Python | Rpi"
-              ></i>
-            </a>
-          </div>
-          <div className="iconCell">
-            <a href="https://github.com/Matt-Jones-Developer">
-              <i
-                class={`${styles.devIcon} devicon-godot-plain`}
+                className={`${styles.devIcon} devicon-godot-plain`}
                 title="Godot"
               ></i>
             </a>
@@ -272,7 +256,23 @@ const Devicons = () => {
           <div className="iconCell">
             <a href="https://github.com/Matt-Jones-Developer">
               <i
-                class={`${styles.devIcon} devicon-filezilla-plain`}
+                className={`${styles.devIcon} devicon-raspberrypi-line`}
+                title="Micro Python | Rpi"
+              ></i>
+            </a>
+          </div>
+          <div className="iconCell">
+            <a href="https://github.com/Matt-Jones-Developer">
+              <i
+                className={`${styles.devIcon} devicon-apple-original`}
+                title="Apple | Unix"
+              ></i>
+            </a>
+          </div>
+          <div className="iconCell">
+            <a href="https://github.com/Matt-Jones-Developer">
+              <i
+                className={`${styles.devIcon} devicon-filezilla-plain`}
                 title="FileZilla"
               ></i>
             </a>

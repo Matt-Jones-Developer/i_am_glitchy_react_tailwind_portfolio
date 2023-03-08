@@ -6,7 +6,7 @@ const Hero = () => {
   // to projects scroll
   const handleScroll = () => {
     window.scrollTo({
-      top: 200,
+      top: 220,
       left: 0,
       behavior: 'smooth'
 

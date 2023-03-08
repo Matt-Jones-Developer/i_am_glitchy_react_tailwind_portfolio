@@ -53,6 +53,7 @@ function NavTabs() {
         }
         onClick={() => {
           window.open(`${myCV}`, "_blank")
+          window.location.reload();
         }}
         rel="noreferrer"
         style={{ marginRight: "1rem" }}

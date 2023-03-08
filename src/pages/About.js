@@ -29,7 +29,7 @@ const About = () => {
               In my spare time I like to play <em>Thrash Metal</em> on my guitar.
               I am obsessed with coding and spend a lot of my time learning new{' '}
               <Link to="/skills"
-                ><em style={{ color: 'orange' }}><span>skills...</span></em>
+                ><em style={{ color: 'orange' }}><span>skills <i className="fa-solid fa-arrow-right"></i></span></em>
             </Link>
           </p>
         </div>
