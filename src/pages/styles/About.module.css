@@ -1,5 +1,6 @@
-a:hover > span {
-  textDecoration: underline;
+span:hover {
+  text-decoration: underline;
+  color: var(--lumi-green);
 }
 
 @media screen and (max-width: 770px) {
