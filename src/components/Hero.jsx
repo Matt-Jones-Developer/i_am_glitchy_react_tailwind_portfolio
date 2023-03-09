@@ -15,7 +15,7 @@ const Hero = () => {
 
   return (
     // hero section component
-    <section className={`px-5 pb-10 ${styles.heroSection} flex`}>
+    <section className={`-mt-6 px-5 pb-10 ${styles.heroSection} flex`}>
       <div className="flex pt-0 backdrop:ml-auto"></div>
       {/* animated hero container using Tailwind config file */}
       <div
@@ -28,7 +28,7 @@ const Hero = () => {
             <br />
             <span className="text-accent">Matt Jones</span>
             <br />
-            Frontend Developer
+            Front-End Developer
           </h1>
           {/* brand tagline */}
           <p className="py-5 text-lumi-pink font-medium">
@@ -39,7 +39,7 @@ const Hero = () => {
           <Link
             to="/projects"
             onClick={handleScroll}
-            className={`${styles.btnCTA} btn bg-purps gap-2 text-white px-6 py-3 my-8`}
+            className={`${styles.btnCTA} btn bg-purps gap-2 text-white px-6 py-3 my-16`}
           >
             Top Projects
           </Link>

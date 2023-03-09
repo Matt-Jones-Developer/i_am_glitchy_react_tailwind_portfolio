@@ -11,6 +11,15 @@
   font-size: 18px;
 }
 
+.artist {
+  font-size: 12px;
+}
+
+.artist a {
+  color: var(--aqua);
+}
+
+
 /* footer icons */
 
 .ulIcons {

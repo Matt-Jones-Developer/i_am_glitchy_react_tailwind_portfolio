@@ -1,14 +1,10 @@
 .heroSection {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .heroInfo {
   margin-top: -2rem;
 }
-
-/* .btnCTA {
-  border-radius: 3px;
-} */
 
 .btnCTA:hover {
   background-color: var(--bs-dark);
@@ -17,6 +13,12 @@
 @media screen and (min-width: 1240px) {
   .heroInfo h1 {
     font-size: 74px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .heroInfo {
+    margin-top: 3rem;
   }
 }
 

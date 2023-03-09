@@ -23,7 +23,7 @@ const NavBar = () => {
 
   // handle external CV link
   function handleCVClick() {
-    window.open(`${myCV}`, "_blank")
+    window.open(`${myCV}`, "_blank");
     window.location.reload();
   }
 
@@ -35,7 +35,7 @@ const NavBar = () => {
           {/* Nav Icon btn and name link */}
           <Link to={href} className="flex items-center -m-2.5 p-2.5">
             <img
-              className="h-12 pl-4 pr-6"
+              className="h-12 pl-4 pr-6 animate-pulse"
               src={`${codeIcon}`}
               alt="coder icon"
               // force refresh
@@ -80,7 +80,11 @@ const NavBar = () => {
       <nav
         className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
       >
-        <ul className={`${styles.toggleNavList} flex flex-col pt-8 pb-6`}>
+        <div
+          className={!toggle ? `{styles.backgroundOff}` : `{styles.backgroundOn} mobile-overlay`}
+          onClick={handleToggle}
+        ></div>
+        <ul className={`${styles.toggleNavList} flex flex-col p-5 pl-2 pt-3`}>
           <li>
             <Link to="/" onClick={handleLinkClick}>
               Home
