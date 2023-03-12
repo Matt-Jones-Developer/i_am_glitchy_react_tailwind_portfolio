@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import styles from './styles/Contact.module.css';
-import linkedIn from "../assets/icons/linkedIn.png"
-import slack from "../assets/icons/slack.png"
-import github from "../assets/icons/github.png"
+import linkedIn from "../assets/icons/linkedin_lg.png"
+import slack from "../assets/icons/slack_lg.png"
+import github from "../assets/icons/github_lg.png"
 import myCV from '../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf'
 import Form from '../components/Form'
 
@@ -40,8 +40,8 @@ const Contact = () => {
           <a href='https://github.com/Matt-Jones-Developer'>
             <img className='github p-2'
               src={`${github}`}
-              width="90px"
-              height="90px"
+              width="108px"
+              height="108px"
               alt='github icon'
               title='View my Github Profile & repos'
             >
@@ -50,8 +50,8 @@ const Contact = () => {
           <a href='https://ukvirtfept112-wi02517.slack.com/archives/C04DMB7BK0B'>
             <img className='slack p-2'
               src={`${slack}`}
-              width="90px"
-              height="64px"
+              width="108px"
+              height="108px"
               alt='slack icon'
               title='Chat me on Slack'
             >
@@ -60,8 +60,8 @@ const Contact = () => {
           <a href='https://www.linkedin.com/in/matt-jones-zx81/'>
             <img className='linkedIn p-2'
               src={`${linkedIn}`}
-              width="90px"
-              height="64px"
+              width="108px"
+              height="108px"
               alt='linkedIn icon'
               title='View my LinkedIn Profile'
             >

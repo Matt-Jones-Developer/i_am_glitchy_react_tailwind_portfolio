@@ -37,7 +37,7 @@ const Footer = () => {
       Designed & <code>coded</code> with <strong>love </strong>
       by <a href="https://github.com/Matt-Jones-Developer">Matt Jones</a>. &copy; 2023. All rights reserved.
     </p>
-    <p className={`${styles.artist}`}><em>Special thanks to <a href="https://pngtree.com/junior-betta_49180563?type=1">Junior Betta</a> for the awesome kraken artwork</em></p>
+    <p className={`${styles.artist}`}><em>Special thanks to <a href="https://pngtree.com/junior-betta_49180563?type=1">Junior Betta</a> for the kraken artwork</em></p>
   </footer>;
 };
 

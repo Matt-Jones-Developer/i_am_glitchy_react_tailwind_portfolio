@@ -1,14 +1,44 @@
-span:hover {
-  text-decoration: underline;
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  justify-content: center;
+}
+
+.skillSpan:hover {
   color: var(--lumi-green);
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  width: 180px;
+  border-bottom-color: var(--purps);
+  padding-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 770px) {
+  .aboutContent {
+    margin-top: 8rem;
+  }
+
   .aboutImg {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
   }
-}
 
+}
