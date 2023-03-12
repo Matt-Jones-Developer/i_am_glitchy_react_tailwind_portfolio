@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.04656785.css",
-    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.b6e7f56d.js",
+    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.147fc4fd.css",
+    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.e78acb17.js",
     "static/js/787.98819bd9.chunk.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js",
     "static/media/code_boss_intro_loop.gif": "/i_am_glitchy_react_tailwind_portfolio/static/media/code_boss_intro_loop.d945121ed13f3cc8f396.gif",
     "static/media/devicon.svg?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.f715b4139afc5236a6e6.svg",
@@ -16,16 +16,16 @@
     "static/media/ghost_kraken.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_kraken.a25a1b079f9da7b4a765.png",
     "static/media/gameboy_site.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/gameboy_site.738b32254d7fb2f58c2a.png",
     "static/media/fine_days_weather.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/fine_days_weather.9df6ad6cdb5c24fbe41b.png",
-    "static/media/Matt Jones C.V 2023 (Google Docs).pdf": "/i_am_glitchy_react_tailwind_portfolio/static/media/Matt Jones C.V 2023 (Google Docs).459efce818673fb58d4c.pdf",
+    "static/media/Matt Jones C.V 2023 (Google Docs).pdf": "/i_am_glitchy_react_tailwind_portfolio/static/media/Matt Jones C.V 2023 (Google Docs).7f3d209a3934ca622b7f.pdf",
     "static/media/ghost_icon.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_icon.c0c4a7554ba5274d9f79.png",
     "static/media/slack_lg.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/slack_lg.89abef9ede0d8c6d5f28.png",
     "index.html": "/i_am_glitchy_react_tailwind_portfolio/index.html",
-    "main.04656785.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.04656785.css.map",
-    "main.b6e7f56d.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.b6e7f56d.js.map",
+    "main.147fc4fd.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.147fc4fd.css.map",
+    "main.e78acb17.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.e78acb17.js.map",
     "787.98819bd9.chunk.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04656785.css",
-    "static/js/main.b6e7f56d.js"
+    "static/css/main.147fc4fd.css",
+    "static/js/main.e78acb17.js"
   ]
 }
