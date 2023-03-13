@@ -35,30 +35,9 @@
   padding: 1rem 1rem;
 }
 
-@media screen and (max-width: 777px) {
-  .footer {
-    font-size: 16px;
-    padding: 0 1rem;
-    bottom: 0;
-  }
-}
-
 @media screen and (max-width: 600px) {
   .footer {
     font-size: 14px;
-    padding: 0 1rem;
-    bottom: 0;
-  }
-}
-
-@media screen and (max-width: 414px) {
-  .footer {
-    font-size: 12px;
-    padding: 0 1rem;
-    bottom: 0;
-  }
-  .artist {
-    font-size: 10px;
     padding: 0 1rem;
     bottom: 0;
   }

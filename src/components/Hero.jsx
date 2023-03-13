@@ -16,10 +16,11 @@ const Hero = () => {
   return (
     // hero section component
     <section className={`-mt-6 px-5 pb-10 ${styles.heroSection} flex`}>
-      <div className="flex pt-0"></div>
+      <div className="flex pt-0 backdrop:ml-auto"></div>
       {/* animated hero container using Tailwind config file */}
       <div
-        className={`${styles.container} flex mx-auto motion-safe:animate-fadeIn`}
+        className="container mx-auto grid md:grid-cols-2 items-center 
+      justify-center md:justify-between motion-safe:animate-fadeIn"
       >
         {/* hero title */}
         <div className={`${styles.heroInfo} pb-5 md:pb-0`}>
@@ -45,7 +46,7 @@ const Hero = () => {
         </div>
         {/* ghost kraken image */}
         {/* animated hero image using Tailwind config file */}
-        <div className="animate-floating inline-block ml-30 mt-5 pt-0">
+        <div className="animate-floating inline-block ml-30 mt-5 pt-0 backdrop:ml-auto">
           <img
             src={ghostKraken}
             alt="ghost kraken cartoon art by junior betta"

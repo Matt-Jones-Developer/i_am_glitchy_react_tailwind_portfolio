@@ -14,10 +14,6 @@
   .heroInfo h1 {
     font-size: 74px;
   }
-
-  .heroSection {
-    height: 250vh;
-  }
 }
 
 @media screen and (max-width: 770px) {
