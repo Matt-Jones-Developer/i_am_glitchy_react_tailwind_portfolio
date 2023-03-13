@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.147fc4fd.css",
-    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.e78acb17.js",
+    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.8842c8ee.css",
+    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.49dccc03.js",
     "static/js/787.98819bd9.chunk.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js",
     "static/media/code_boss_intro_loop.gif": "/i_am_glitchy_react_tailwind_portfolio/static/media/code_boss_intro_loop.d945121ed13f3cc8f396.gif",
     "static/media/devicon.svg?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.f715b4139afc5236a6e6.svg",
-    "static/media/cristalvision.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/cristalvision.c70b58e87c70509ae1d2.png",
-    "static/media/password_gen.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/password_gen.2df4a4cbc326c7d7b571.png",
+    "static/media/cristalvision.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/cristalvision.e7785fb0cfe9dcecb4e0.png",
+    "static/media/password_gen.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/password_gen.788f8835088c54656fd4.png",
+    "static/media/musicforyou_api.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/musicforyou_api.28a0b0e6122cf30bef7a.png",
+    "static/media/about-img-lg-2.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/about-img-lg-2.1799ed5218af250f8523.png",
     "static/media/devicon.eot?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.afa70020fddd5e5a3260.eot",
     "static/media/devicon.woff?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.96fdfd136e8a467e1861.woff",
     "static/media/devicon.ttf?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.b25739c2b9d15a53d60c.ttf",
-    "static/media/about-img-lg-2.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/about-img-lg-2.06251e3cd7c86ea65fd0.png",
     "static/media/code_unsplash-scaled.jpg": "/i_am_glitchy_react_tailwind_portfolio/static/media/code_unsplash-scaled.6caebfafc11229ebeb47.jpg",
-    "static/media/musicforyou_api.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/musicforyou_api.25d86db788be86e2dd3f.png",
+    "static/media/gameboy_site.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/gameboy_site.c5224c9942283c252e9f.png",
     "static/media/ghost_kraken.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_kraken.a25a1b079f9da7b4a765.png",
-    "static/media/gameboy_site.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/gameboy_site.738b32254d7fb2f58c2a.png",
-    "static/media/fine_days_weather.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/fine_days_weather.9df6ad6cdb5c24fbe41b.png",
-    "static/media/Matt Jones C.V 2023 (Google Docs).pdf": "/i_am_glitchy_react_tailwind_portfolio/static/media/Matt Jones C.V 2023 (Google Docs).7f3d209a3934ca622b7f.pdf",
+    "static/media/fine_days_weather.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/fine_days_weather.168c2f6739b32c28e0ea.png",
+    "static/media/Matt Jones C.V 2023 (Google Docs).pdf": "/i_am_glitchy_react_tailwind_portfolio/static/media/Matt Jones C.V 2023 (Google Docs).459efce818673fb58d4c.pdf",
     "static/media/ghost_icon.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_icon.c0c4a7554ba5274d9f79.png",
-    "static/media/slack_lg.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/slack_lg.89abef9ede0d8c6d5f28.png",
     "index.html": "/i_am_glitchy_react_tailwind_portfolio/index.html",
-    "main.147fc4fd.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.147fc4fd.css.map",
-    "main.e78acb17.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.e78acb17.js.map",
+    "main.8842c8ee.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.8842c8ee.css.map",
+    "main.49dccc03.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.49dccc03.js.map",
     "787.98819bd9.chunk.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.147fc4fd.css",
-    "static/js/main.e78acb17.js"
+    "static/css/main.8842c8ee.css",
+    "static/js/main.49dccc03.js"
   ]
 }
