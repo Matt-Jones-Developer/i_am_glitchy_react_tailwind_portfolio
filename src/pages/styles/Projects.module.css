@@ -1,6 +1,20 @@
-/* .projectSection {
+.projectSection {
   height: 100vh;
   scroll-margin-top: 250px;
   scroll-behavior: smooth;
   transition-duration: 1.5s;
-} */
+}
+
+@media (max-width: 1224px) {
+  .projectSection {
+    margin-bottom: -6rem;
+    height: 70vh;
+  }
+}
+
+@media (max-width: 414px) {
+  .projectSection {
+    margin-bottom: -12rem;
+    height: 290vh;
+  }
+}

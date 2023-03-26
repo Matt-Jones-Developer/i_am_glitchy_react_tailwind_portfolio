@@ -6,7 +6,7 @@ const Home = () => {
   // always auto scroll hook
   useEffect(() => {
     window.scrollTo({
-      top: 0,
+      top: 100,
       left: 0,
       behavior: 'smooth'
     });

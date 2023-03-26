@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
-import styles from './styles/Contact.module.css';
+import { useEffect } from "react";
+import styles from "./styles/Contact.module.css";
 import linkedIn from "../assets/icons/linkedin_lg.png"
 import slack from "../assets/icons/slack_lg.png"
 import github from "../assets/icons/github_lg_wht.png"
-import myCV from '../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf'
-import Form from '../components/Form'
+import myCV from "../assets/pdf/Matt_Jones_CV_2023.pdf"
+import Form from "../components/Form"
 
 const Contact = () => {
 
@@ -29,11 +29,11 @@ const Contact = () => {
           If you want to discuss potential freelance contracts with me, please feel free to get in touch...
         </p>
         <p className="py-2 text-white">
-          <span className="font-bold">Email me:</span>
-          <a href="mailto:glitchyghost@gmail.com"> <em>Matt Jones</em></a>
+          <span className="font-bold">Email me here directly:</span>
+          <a href="mailto:glitchyghost@gmail.com" className="font-bold"> <em>Matt Jones</em></a>
         </p>
         <a href={myCV} download="Matt Jones C.V 2023.pdf">
-          <em className='text--peachy'><b>Download my CV</b></em>
+          <em className='text--peachy animate-ping'><b>Download my CV</b></em>
         </a>
         {/* icon drop */}
         <div className='iconDrop flex justify-center py-8 mb-16'>

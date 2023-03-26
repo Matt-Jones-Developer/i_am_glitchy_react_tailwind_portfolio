@@ -1,5 +1,5 @@
 span:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: var(--lumi-green);
 }
 

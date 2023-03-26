@@ -1,19 +1,21 @@
 import styles from "./styles/Projects.module.css"
-import cristalVision from "../assets/png/cristalvision.png";
+// import cristalVision from "../assets/png/cristalvision.png";
 import musicForYou from "../assets/png/musicforyou_api.png";
 import gameBoy from "../assets/png/gameboy_site.png";
 import fineWeather from "../assets/png/fine_days_weather.png";
 import passwordGen from "../assets/png/password_gen.png";
 import codeBoss from "../assets/gif/code_boss_intro_loop.gif";
+import wifinder from "../assets/png/wifinder_homepage.png";
 
 import data from "../data.json";
 
 // map between id and the path
 const projectImages = {
-  1: fineWeather,
+
+  1: wifinder,
   2: passwordGen,
   3: musicForYou,
-  4: cristalVision,
+  4: fineWeather,
   5: codeBoss,
   6: gameBoy
 }
@@ -23,7 +25,8 @@ const Projects = () => {
   const projects = data;
 
   return (
-    <section className={`${styles.projectSection} bg-primary text-white px-5 pt-8 -pb-24`}>
+    <section className={`${styles.projectSection} bg-primary text-white px-5 pt-8 -mb-16`}>
+      {/* project section */}
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className="about mb-5">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[150px] border-purps pb-2">
@@ -37,6 +40,7 @@ const Projects = () => {
           </p>
         </div>
       </div>
+      {/* project grid */}
       <div className="projects container grid md:grid-cols-3 gap-12 mx-auto ">
         {/* dynamically rendered project cards */}
         {/* map and track each card [i] */}
@@ -71,8 +75,17 @@ const Projects = () => {
           );
         })}
       </div>
-      {/* video of codeBoss [TODO] */}
-      <div className="demo-gif"></div>
+      {/* highlight project */}
+      {/* <div className="container flex mx-auto w-max-full mt-12 pt-2 pb-16 mb-16">
+        <a href="https://wi-finder.netlify.app/">
+          <img
+            src={wifinder}
+            alt="wifinder: wifi search engine homepage"
+            className="lgw-[80%] mx-auto"
+            width="1600px"
+          />
+        </a>
+      </div> */}
     </section>
   );
 };

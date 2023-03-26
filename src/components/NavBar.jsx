@@ -5,7 +5,7 @@ import NavTabs from "./NavTabs";
 import codeIcon from "../assets/icons/coder_icn.png";
 import styles from "./styles/NavBar.module.css";
 import "../App.css";
-import myCV from "../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf";
+import myCV from "../assets/pdf/Matt_Jones_CV_2023.pdf";
 
 const NavBar = () => {
   // set toggle init state

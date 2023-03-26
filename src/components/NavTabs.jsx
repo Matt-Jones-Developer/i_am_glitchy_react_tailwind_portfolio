@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import myCV from "../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf"
+import myCV from "../assets/pdf/Matt_Jones_CV_2023.pdf";
 
 function NavTabs() {
   return (
