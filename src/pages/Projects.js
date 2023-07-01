@@ -2,7 +2,7 @@ import styles from "./styles/Projects.module.css"
 // import cristalVision from "../assets/png/cristalvision.png";
 import musicForYou from "../assets/png/musicforyou_api.png";
 import gameBoy from "../assets/png/gameboy_site.png";
-import fineWeather from "../assets/png/fine_days_weather.png";
+import superdrug from "../assets/png/superdrug-hero.png";
 import passwordGen from "../assets/png/password_gen.png";
 import codeBoss from "../assets/gif/code_boss_intro_loop.gif";
 import wifinder from "../assets/png/wifinder_homepage.png";
@@ -13,9 +13,9 @@ import data from "../data.json";
 const projectImages = {
 
   1: wifinder,
-  2: passwordGen,
+  2: superdrug,
   3: musicForYou,
-  4: fineWeather,
+  4: passwordGen,
   5: codeBoss,
   6: gameBoy
 }
@@ -35,7 +35,7 @@ const Projects = () => {
 
           <p className="pb-5 text-white">
             Some of my best projects. I built them using a mix of React &
-            Tailwind, vanilla JavaScript, HTML5 and CSS3.  
+            Tailwind, vanilla JavaScript, HTML5 and CSS3.
             I love building CLI programs using Node.js too!
           </p>
         </div>

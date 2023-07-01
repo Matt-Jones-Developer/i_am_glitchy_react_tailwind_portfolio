@@ -16,35 +16,35 @@ const About = () => {
               Hi, my name is Matt Jones, a.k.a glitchyGhost. I'm a
               Frontend Developer and UI designer with an eye for detail.
               I love building intuitive, beautiful websites and applications using
-              <b> JavaScript, React & Tailwind.</b>
+              <b> React, Next & TailwindCSS.</b>
             </p>
             <p className="pb-5 text-white">
-              With decent front-end skills in React.js, Tailwind, SaSS, CSS3 & HTML5,
-              I also love technical back-end tasks and problem-solving.
+              With decent front-end skills in React.js, Tailwind, SASS, CSS3 & HTML5,
+              I also love technical back-end tasks and problem-solving using JavaScript & Node.js.
               I am proficient in Node.js, Python, mySQL, MongoDB, Github and CLI.
-              See my Skills page for more detail.
+              See my Skills page for more details.
             </p>
             {/* hobbies */}
             <p className="text-white">
               In my spare time I like to play <em>Thrash Metal</em> on my guitar.
               I am obsessed with coding and spend a lot of my time learning new{' '}
               <Link to="/skills"
-                ><em style={{ color: 'orange' }}><span>skills <i className="fa-solid fa-arrow-right animate-ping"></i></span></em>
-            </Link>
-          </p>
+              ><em style={{ color: 'orange' }}><span>skills <i className="fa-solid fa-arrow-right animate-ping"></i></span></em>
+              </Link>
+            </p>
+          </div>
+        </div>
+
+        <div className={`${styles.aboutImg}`}>
+          <img
+            src={AboutImg}
+            width="440px"
+            height="440px"
+            alt="mugshot selfie"
+            className="lgw-[100%] md:ml-auto"
+          />
         </div>
       </div>
-
-      <div className={`${styles.aboutImg}`}>
-        <img
-          src={AboutImg}
-          width="440px"
-          height="440px"
-          alt="mugshot selfie"
-          className="lgw-[100%] md:ml-auto"
-        />
-      </div>
-    </div>
     </section >
   );
 };

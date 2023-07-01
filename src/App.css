@@ -1,8 +1,6 @@
 /* app styling (master) */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import './index.css';
+@import './tailwind.css';
 
 :root {
   --background: #DFE1DE;
@@ -21,15 +19,21 @@
   --aqua: #74FBB5;
   --lumi: #bfff00;
   --gradient: linear-gradient(45deg,
-  rgba(47, 47, 47, 0.8) 0%,
-  rgba(119, 119, 119, 0.9) 100%);
+      rgba(47, 47, 47, 0.8) 0%,
+      rgba(119, 119, 119, 0.9) 100%);
 }
 
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+
+/* * {
+  border: 1px solid rgb(146, 236, 20);
+} */
 
 html {
   scroll-behavior: smooth;
@@ -42,6 +46,11 @@ body {
   font-size: 18px;
   color: #fff;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  overflow-y: auto;
+  position: relative;
 }
 
 body::before {
@@ -73,12 +82,24 @@ h1 {
   color: var(--color-dark);
 }
 
+a {
+  z-index: 999;
+}
+
 a:hover {
   color: var(--lumi);
 }
 
 p {
   color: var(--color-dark);
+}
+
+.nav-links ul>li {
+  z-index: 999;
+}
+
+li:hover {
+  color: var(--lumi);
 }
 
 /* color */
@@ -96,12 +117,8 @@ p {
 
 .text-accent {
   color: var(--purps);
-} 
+}
 
 .text-hl {
   color: var(--lumi-pink);
-}
-
-.mobile-nav {
-  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-slate-800 duration-500;
 }

@@ -2,24 +2,27 @@
 
 .toggleNavList li {
   margin-top: 2rem;
+  z-index: 999;
 }
+
 .nav-items {
   font-family: 'Raleway', sans-serif;
 }
 
 nav li a {
   @apply px-4 py-5 text-lg;
+  z-index: 999;
 }
 
 nav li a:hover {
-  color: var(--lumi-pink);
+  color: var(--lumi);
 }
 
 .nameTag {
   color: var(--purps) !important;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
   .mobile-nav {
     display: block;
   }

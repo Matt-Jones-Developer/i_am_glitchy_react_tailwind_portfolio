@@ -27,3 +27,9 @@
     font-size: 44px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .heroInfo {
+    margin-top: 1rem;
+  }
+}
