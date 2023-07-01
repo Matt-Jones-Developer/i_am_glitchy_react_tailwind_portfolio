@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.1bf4d545.css",
+    "main.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.23b059b9.js",
+    "static/js/787.98819bd9.chunk.js": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js",
+    "static/media/code_boss_intro_loop.gif": "/i_am_glitchy_react_tailwind_portfolio/static/media/code_boss_intro_loop.d945121ed13f3cc8f396.gif",
+    "static/media/devicon.svg?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.f715b4139afc5236a6e6.svg",
+    "static/media/password_gen.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/password_gen.6d1d8b1858fe1189801d.png",
+    "static/media/about-img-lg-2.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/about-img-lg-2.1799ed5218af250f8523.png",
+    "static/media/devicon.eot?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.afa70020fddd5e5a3260.eot",
+    "static/media/devicon.woff?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.96fdfd136e8a467e1861.woff",
+    "static/media/devicon.ttf?biu5f3": "/i_am_glitchy_react_tailwind_portfolio/static/media/devicon.b25739c2b9d15a53d60c.ttf",
+    "static/media/musicforyou_api.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/musicforyou_api.f4720ab3e5838b2d744d.png",
+    "static/media/github_lg_wht.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/github_lg_wht.9219cc6c16eccc922349.png",
+    "static/media/code_unsplash-scaled.jpg": "/i_am_glitchy_react_tailwind_portfolio/static/media/code_unsplash-scaled.6caebfafc11229ebeb47.jpg",
+    "static/media/superdrug-hero.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/superdrug-hero.29f74029a9038564ab96.png",
+    "static/media/ghost_kraken.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_kraken.a25a1b079f9da7b4a765.png",
+    "static/media/wifinder_homepage.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/wifinder_homepage.8b929aa2462383f61ac8.png",
+    "static/media/gameboy_site.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/gameboy_site.9029bf51b8e37d6f2365.png",
+    "static/media/Matt_Jones_CV_2023.pdf": "/i_am_glitchy_react_tailwind_portfolio/static/media/Matt_Jones_CV_2023.0d38869372bb47a0427f.pdf",
+    "static/media/ghost_icon.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/ghost_icon.c0c4a7554ba5274d9f79.png",
+    "static/media/slack_lg.png": "/i_am_glitchy_react_tailwind_portfolio/static/media/slack_lg.89abef9ede0d8c6d5f28.png",
+    "index.html": "/i_am_glitchy_react_tailwind_portfolio/index.html",
+    "main.1bf4d545.css.map": "/i_am_glitchy_react_tailwind_portfolio/static/css/main.1bf4d545.css.map",
+    "main.23b059b9.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/main.23b059b9.js.map",
+    "787.98819bd9.chunk.js.map": "/i_am_glitchy_react_tailwind_portfolio/static/js/787.98819bd9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bf4d545.css",
+    "static/js/main.23b059b9.js"
+  ]
+}
