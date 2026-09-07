@@ -3,7 +3,7 @@ import styles from "./styles/Contact.module.css";
 import linkedIn from "../assets/icons/linkedin_lg.png"
 import slack from "../assets/icons/slack_lg.png"
 import github from "../assets/icons/github_lg_wht.png"
-import myCV from "../assets/pdf/Matt_Jones_CV_2023.pdf"
+import myCV from "../assets/pdf/Matt_Jones_CV_2026.pdf"
 import Form from "../components/Form"
 
 const Contact = () => {

@@ -5,7 +5,7 @@ import NavTabs from './NavTabs';
 import codeIcon from '../assets/icons/coder_icn.png';
 import styles from './styles/NavBar.module.css';
 import '../App.css';
-import myCV from '../assets/pdf/Matt_Jones_CV_2023.pdf';
+import myCV from '../assets/pdf/Matt_Jones_CV_2026.pdf';
 
 const NavBar = () => {
   // set toggle init state
@@ -52,7 +52,7 @@ const NavBar = () => {
               className='nameTag text-sm sm:text-lg md:text-2xl'
               href='https://github.com/Matt-Jones-Developer'
             >
-              i am glitchyGhost
+              i am glitchy
             </a>
           </span>
         </div>
